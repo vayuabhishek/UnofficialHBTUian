@@ -1,0 +1,27 @@
+In bootstrap the responsive behavior is achieved by using media queries in CSS
+ and we have 5 breakpoints for 5 standard devices 
+
+
+1) Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+2) Small devices(sm) (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+3) Medium devices(md) (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+4) Large devices(lg) (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+5) Extra large devices(xl) (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+--------------------------------------------------------------------------------------
+
+1.xs<576
+2.576<sm<768
+3.768<md<992
+4.992<lg<1200
+5.1200<xl

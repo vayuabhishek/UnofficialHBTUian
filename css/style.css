@@ -1,0 +1,64 @@
+.myrows{
+border:3px solid green;
+
+}
+.mycols{
+    border:3px solid red;
+}
+.mycontainer{
+background-color:aqua;
+}
+
+#topHeader
+{
+    /* background-color: ghostwhite; */
+    border-bottom:1px solid #ebebeb;
+}
+
+
+#topHeader a{
+    color:#34495e;
+    font-weight: 600;
+    font-size: 0.89rem;;
+}
+
+.container-fluid{
+    padding-left:0;
+    padding-right: 0;
+}
+
+nav ul li a{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Start of footer */
+
+.full-footer{
+    background-color:#34495e ;
+}
+.top-footer p{
+    color:white; 
+}
+.top-footer a{
+    color:white;
+    font-weight: 600; 
+}
+.top-footer h3{
+    color:white;
+    /* font-weight: 600;  */
+}
+/* End of footer */
+/*Start Home page:top-hero-section*/
+.top-hero-section
+{
+background-color: #535c68;
+color:white;
+}
+/*End Home page:top-hero-section*/
+/*Start Home page:contribution section*/
+.contribute-section{
+    background-color: #535c68;
+    color:white;
+}
+/*End Home page:contribution section*/
